@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve",
+    // "lib": ["dom", "esnext"],
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "es5",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "strictNullChecks": true,
+    "isolatedModules": true
+  },
+  "exclude": [
+    "node_modules",
+    "node_modules/**/*",
+    "src/packages",
+    "node_modules/react-native-screens/native-stack/index.tsx"
+  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_document.js"],
+  "files": ["node_modules/typescript/lib/lib.es6.d.ts"]
+}
